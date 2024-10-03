@@ -1,0 +1,263 @@
+body {
+    background-color: #ffff99;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23e5e571' fill-opacity='0.35'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+}
+header, footer {
+    background: linear-gradient(to right, #8e44ad, #e67e22);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header {
+    background: linear-gradient(to right, #8e44ad, #e67e22);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-menu {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+    .nav-menu li {
+    display: inline;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-menu a:hover {
+    background-color: #d35400;
+    color: white;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+.dishes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.dish {
+    text-align: center;
+    width: 300px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
+}
+
+
+.dish img {
+    width: 100%;
+    border-radius: 10px;
+}
+.order-button {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration:none;
+
+
+}
+
+.order-button:hover {
+    background-color: #d35400;
+    transform: scale(1.1);
+
+}
+.about-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.dishes{
+    display:flex;
+    gap:2rem;
+}
+.spice-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    border: 7px solid #ffff99;
+}
+.locations-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 80%;
+}
+.locations-section h2 {
+    color: #333;
+}
+.locations-section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+.location-list {
+    margin: 20px 0;
+}
+.location-list h3 {
+    font-size: 20px;
+    color: #ff5a5f;
+}
+.location-list p {
+    margin: 5px 0;
+}
+.location-image {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.bold-careers {
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.menu-section .menu {
+    width: 45%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.menu h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.menu ul li span {
+    float: right;
+}
+
+.menu img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.combo-meals {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.combo-meals h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.combo {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #fff;
+    border: 5px solid;
+    border-radius: 5px;
+}
+
+.combo h3 {
+    font-size: 24px;
+    color: #000000;
+}
+
+.combo p {
+    font-size: 16px;
+    color: #000000;
+}
+
+.combo .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    text-align: right;
+}
+
+.combo-meals p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.
+}
+.template {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.allergy-info p {
+    font-size: 14px;
+    color: #000000;
+}
+
+.allergy-info a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
